@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build -f app/Dockerfile -t pnlinh/app:latest ./app
+docker build -f node/Dockerfile -t pnlinh/node:latest ./node
